@@ -29,7 +29,7 @@ const color = [0xff0000, 0x00ff00, 0x0000ff, 0xffff00];
 const texture = ['./csilla/color.png', './earth/map.jpg', './venus/map.jpg', './volcanic/color.png'];
 const spheres = new THREE.Group()
 
-const starTexture = new THREE.TextureLoader().load('./stars.jpg');
+const starTexture = new THREE.TextureLoader().load('./stars/stars.jpg');
 starTexture .colorSpace = THREE.SRGBColorSpace;
 const bigSphereGeometry = new THREE.SphereGeometry(10, 64, 64);
 const bigSphereMaterial = new THREE.MeshStandardMaterial({ 
