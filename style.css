@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'Bellina';
+  src: url('/fonts/Bellina.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-bellina {
+  font-family: 'Bellina';
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('/fonts/Helvetica.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-Helvetica {
+  font-family: 'Helvetica';
+}
+
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/fonts/Gilroy-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-Gilroy {
+  font-family: 'Gilroy';
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body{
+  width: 100%;
+  height: 100%;
+}
+body{
+  background-color: black;
+}
