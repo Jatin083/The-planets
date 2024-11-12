@@ -32,7 +32,7 @@ const texturePaths = ['/csilla/color.png', '/earth/map.jpg', '/venus/map.jpg', '
 const spheres = new THREE.Group();
 
 // Create the background sphere (stars)
-const starTexture = new THREE.TextureLoader().load('/stars.jpg');
+const starTexture = new THREE.TextureLoader().load('.stars.jpg');
 starTexture.colorSpace = THREE.SRGBColorSpace;
 const bigSphereGeometry = new THREE.SphereGeometry(10, 64, 64);
 const bigSphereMaterial = new THREE.MeshStandardMaterial({ 
